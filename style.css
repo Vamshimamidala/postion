@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+header .logo img {
+    height: 50px;
+    float: left;
+    margin-left: 15px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.hero video {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4CAF50;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.course-grid, .mode-grid, .choose-grid {
+    overflow: hidden;
+}
+
+.course, .mode, .choose {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 22%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-right: 2%;
+}
+
+.mode {
+    width: 15%;
+}
+
+.choose {
+    width: 22%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.center {
+    background: white;
+    border: 1px solid #e7e1e1;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-style: italic;
+}
+
+p {
+    color: rgb(15, 15, 15);
+}
+.message {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.message input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.message input[type="button"]:hover {
+    background-color: #45a049;
+}
